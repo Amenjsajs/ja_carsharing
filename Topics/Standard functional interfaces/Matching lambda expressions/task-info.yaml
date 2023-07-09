@@ -1,0 +1,34 @@
+type: matching
+captions:
+- "(x) -&gt; { return x + 10; }"
+- "(x, y) -&gt; (x &gt; y) &amp;&amp; (x % 2 == 0)"
+- () -&gt; Long.valueOf(10_000L).toString()
+- "(x, y) -&gt; { }"
+- "(x) -&gt; x.subList(0, x.size())"
+options:
+- method(Supplier&lt;String&gt; s)
+- method(DoubleFunction&lt;Double&gt; f)
+- method(UnaryOperator&lt;List&lt;String&gt;&gt; o)
+- "method(BiPredicate&lt;Integer, Double&gt; p)"
+- "method(BiConsumer&lt;Integer, String&gt; c)"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2397#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
+- 4

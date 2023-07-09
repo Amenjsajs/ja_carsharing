@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarSharingTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-07-09T12:44:28" hostname="AMENJS" time="1.114">
+  <properties/>
+  <testcase name="start" classname="CarSharingTest" time="1.114">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+1. Log in as a manager
+2. Log in as customer
+3. Create a customer
+0. Exit
+> 0
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
